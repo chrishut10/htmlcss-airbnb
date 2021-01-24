@@ -1,0 +1,58 @@
+
+/* regole generali css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* contenuto parte principale css */
+
+.city{
+  height: 100vh;
+  weight: 100%;
+  background-color: red;
+  color: white;
+  border: 10px solid white;
+  border-radius: 30px;
+  position: relative;
+}
+
+.name{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  background-color: rgb(0, 0, 0, 0.2);
+  padding: 20px;
+  position: absolute;
+  z-index: 200;
+}
+
+.layover{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  z-index: 100;
+}
+
+
+
+#picture1{
+  background-image: url(../img/Bruxelles.jpg);
+  background-size: cover;
+}
+
+#picture2{
+  background-image: url(../img/Paris.jpg);
+  background-size: cover;
+}
+
+#picture3{
+  background-image: url(../img/Riodejaneiro.jpg);
+  background-size: cover;
+  }
